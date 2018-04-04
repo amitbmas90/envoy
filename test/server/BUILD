@@ -136,7 +136,7 @@ envoy_cc_test(
         "//source/extensions/transport_sockets/raw_buffer:config",
         "//source/extensions/transport_sockets/ssl:config",
         "//source/server:listener_manager_lib",
-        "//source/server/config/network:http_connection_manager_lib",
+        #fixfix"//source/server/config/network:http_connection_manager_lib",
         "//test/mocks/server:server_mocks",
         "//test/test_common:environment_lib",
         "//test/test_common:threadsafe_singleton_injector_lib",

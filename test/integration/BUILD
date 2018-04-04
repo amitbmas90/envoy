@@ -302,7 +302,7 @@ envoy_cc_test_library(
         "//source/server/config/http:gzip_lib",
         "//source/server/config/http:ip_tagging_lib",
         "//source/server/config/http:router_lib",
-        "//source/server/config/network:http_connection_manager_lib",
+        #fixfix"//source/server/config/network:http_connection_manager_lib",
         "//source/server/http:health_check_lib",
         "//test/common/upstream:utility_lib",
         "//test/config:utility_lib",

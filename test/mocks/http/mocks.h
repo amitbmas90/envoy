@@ -14,7 +14,7 @@
 #include "envoy/http/filter.h"
 #include "envoy/ssl/connection.h"
 
-#include "common/http/conn_manager_impl.h"
+//fixfix#include "common/http/conn_manager_impl.h"
 
 #include "test/mocks/common.h"
 #include "test/mocks/event/mocks.h"
@@ -29,7 +29,7 @@
 namespace Envoy {
 namespace Http {
 
-class MockConnectionManagerConfig : public ConnectionManagerConfig {
+/*class MockConnectionManagerConfig : public ConnectionManagerConfig {
 public:
   MockConnectionManagerConfig();
   ~MockConnectionManagerConfig();
@@ -63,7 +63,7 @@ public:
   MOCK_METHOD0(listenerStats, ConnectionManagerListenerStats&());
   MOCK_CONST_METHOD0(proxy100Continue, bool());
   MOCK_CONST_METHOD0(http1Settings, const Http::Http1Settings&());
-};
+};fixfix*/
 
 class MockConnectionCallbacks : public virtual ConnectionCallbacks {
 public:

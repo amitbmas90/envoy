@@ -15,11 +15,11 @@ using testing::_;
 namespace Envoy {
 namespace Http {
 
-MockConnectionManagerConfig::MockConnectionManagerConfig() {
+/*MockConnectionManagerConfig::MockConnectionManagerConfig() {
   ON_CALL(*this, generateRequestId()).WillByDefault(Return(true));
 }
 
-MockConnectionManagerConfig::~MockConnectionManagerConfig() {}
+MockConnectionManagerConfig::~MockConnectionManagerConfig() {}fixfix*/
 
 MockConnectionCallbacks::MockConnectionCallbacks() {}
 MockConnectionCallbacks::~MockConnectionCallbacks() {}

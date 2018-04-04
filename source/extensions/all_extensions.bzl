@@ -15,6 +15,7 @@ def envoy_all_extensions(repository = ""):
     repository + "//source/extensions/filters/network/client_ssl_auth:config",
     repository + "//source/extensions/filters/network/echo:config",
     repository + "//source/extensions/filters/network/ext_authz:config",
+    repository + "//source/extensions/filters/network/hcm:config",
     repository + "//source/extensions/filters/network/mongo_proxy:config",
     repository + "//source/extensions/filters/network/ratelimit:config",
     repository + "//source/extensions/filters/network/redis_proxy:config",
